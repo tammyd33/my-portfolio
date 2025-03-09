@@ -3,64 +3,163 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<link href="../sitewide.css" rel="stylesheet">
+<link href="../color-and-type.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
 <title>Tammyd33 Portfolio</title>
 </head>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li> 
+    <li><a href="../resume.html">About Me</a></li>
+    <li class="contains"><a href="../projects/index.html">Projects</a>
+    <ul>
+      <li><a href="../projects/project_1.html">Chicken Trolley</a></li>
+      <li><a href="../projects/project_2.html">Cycling Infographic</a></li>
+      <li><a href="../projects/project_3.html">Metro Mutts Ad Campaign</a></li>
+      <li><a href="../projects/project_4.html">Artiverse Magazine Cover</a></li>
+    </ul>
+  </li>
+  <li class="contains"><a href="../color_theory/color_theory_main.html">Color Theory</a>
+    <ul>
+      <li><a href="../color_theory/color_themes.html">Color Themes</a></li>
+      <li><a href="../color_theory/color_theory_article.html">Color Theory Article</a></li>
+    </ul>
+  </li>
+  <li class="contains"><a href="../typography/typography_main.html">Typography</a>
+    <ul>
+      <li><a href="../typography/font_types_article.html">Font Types</a></li>
+      <li><a href="../typography/typography_article.html">Typography Article</a></li>
+    </ul>
+  </li>
+</ul>
+</nav>
 <body>
   <header><h1>Color Theory</h1></header>
-  <div>
-    <a href="../index.html">Home</a> | 
-    <a href="../resume.html">About Me</a> | 
-    <a href="../projects/index.html">Projects</a> |
-    <a href="color_theory_main.html">Color Theory</a> |
-    <a href="../typography/typography_main.html">Typography</a>
+  <main>
+    <section class="summary">
+    <p>Color theory is the study of how colors interact with each other and how they affect people’s emotions and perceptions. 
+    Colors can draw attention, make you feel a certain way, and impact your design's overall message. Below are some common terms 
+    related to color theory. </p>
+    </section>
+<table id="definition-list">
+<thead>
+  <tr>
+    <th>Term</th>
+    <th>Definition</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="cell">Color Wheel</td>
+    <td>a fundamental tool in color theory which illustrates the relationship between colors</td>
+  </tr>
+  <tr>
+    <td class="cell">Primary Colors</td>
+    <td>colors that are pure and cannot be created by mixing other colors: red, blue, and yellow</td>
+  </tr>
+  <tr>
+    <td class="cell">Secondary Colors</td>
+    <td>colors that are formed by mixing two primary colors: green, violet, and orange</td>
+  </tr>
+  <tr>
+    <td class="cell">Tertiary Colors</td>
+    <td>colors that are a result of mixing a primary color with a secondary color: blue-violet,
+        blue-green, yellow-green, yellow-orange, red-orange, and red-violet</td>
+  </tr>
+  <tr>
+    <td class="cell">Saturation</td>
+    <td>the degree of purity and brightness within a color</td>
+  </tr>
+  <tr>
+    <td class="cell">Hue</td>
+    <td>the purest form of a color</td>
+  </tr>
+  <tr>
+    <td class="cell">Shade</td>
+    <td>a hue with black added to darken the color</td>
+  </tr>
+  <tr>
+    <td class="cell">Tint</td>
+    <td>a hue with white added to lighten the color</td>
+  </tr> 
+  <tr>
+    <td class="cell">Tone</td>
+    <td>a hue with grey added to give a muted color</td>
+  </tr>
+  <tr>
+    <td class="cell">Value of Hue</td>
+    <td>the relative lightness or darkness of a color</td>
+  </tr>
+  <tr>
+    <td class="cell">Color Scheme</td>
+    <td>a set of colors, properly labeled and made available to everyone involved with a project in order to 
+      ensure a cohesive look and feel</td>
+  </tr>
+  <tr>
+    <td class="cell">Monochromatic Colors Scheme</td>
+    <td>a color palette that uses shades and tints of a single color to created a unified look</td>
+  </tr>
+  <tr>
+    <td class="cell">Triadic Color Scheme</td>
+    <td>a color palette that uses three colors that are evenly spaced around the color wheel to form 
+      a triangle</td>
+  </tr>
+  <tr>
+    <td class="cell">Complementary Color Scheme</td>
+    <td>a color palette that uses colors that are opposite each other on the color wheel</td>
+  </tr>
+  <tr>
+    <td class="cell">Split Color Scheme</td>
+    <td>a color palette that uses a base color and two colors that would be balanced from the opposite side 
+    of the color wheel</td>
+  </tr>
+  <tr>
+    <td class="cell">Analogous Color Scheme</td>
+    <td>colors that are next to each other on the color wheel</td>
+  </tr>
+  <tr>
+    <td class="cell">White Space</td>
+    <td>the empty space between and around design elements and text, also called negative space, that can be any 
+    color, texture, or pattern</td>
+  </tr>
+  <tr>
+    <td class="cell">RGB</td>
+    <td>stands for red, green, and blue and it is a color mode used by screens to build a light-based color system</td>
+  </tr>
+  <tr>
+    <td class="cell">CMYK</td>
+    <td>stands for cyan, magenta, yellow, and black and are colored inks used in the printing process</td>
+  </tr> 
+  <tr>
+    <td class="cell">Contrast</td>
+    <td>the difference between the lightest and darkest tones in an image</td>
+  </tr> 
+  <tr>
+    <td class="cell">Vibrancy</td>
+    <td>in color theory this means a lively, bright, rich, energetic hue</td>
+  </tr>
+</tbody>
+</table>
+<div id="more"><p>Want more? Check out these pages!</p>
+  <div class="want-more">
+    <div class="color-themes-button">
+    <a href="color_themes.html">Color Themes</a></div>
+    <div class="color-article-button">
+    <a href="color_theory_article.html">Color Theory Article</a></div>
   </div>
-<hr>
-<p>Color theory is the study of how colors interact with each other and how they affect people’s emotions and perceptions. 
-  Colors can draw attention, make you feel a certain way, and impact your design's overall message. Below are some common terms 
-  related to color theory. </p>
-<p>Some common terms include:</p>
-<ol>
-<li><em>Color Wheel</em> &#8211; a fundamental tool in color theory which illustrates the relationship between colors</li>
-<li><em>Primary Colors</em> &#8211; colors that are pure and cannot be created by mixing other colors: red, blue, and yellow</li>
-<li><em>Secondary Colors</em> &#8211; colors that are formed by mixing two primary colors: green, violet, and orange</li>
-<li><em>Tertiary Colors</em> &#8211; colors that are a result of mixing a primary color with a secondary color: blue-violet,
-  blue-green, yellow-green, yellow-orange, red-orange, and red-violet</li>
-<li><em>Saturation</em> &#8211; the degree of purity and brightness within a color</li>
-<li><em>Hue</em> &#8211; the purest form of a color</li>
-<li><em>Shade</em> &#8211; a hue with black added to darken the color</li>
-<li><em>Tint</em> &#8211; a hue with white added to lighten the color</li>
-<li><em>Tone</em> &#8211; a hue with grey added to give a muted color</li>
-<li><em>Value of Hue</em> &#8211; the relative lightness or darkness of a color</li>
-<li><em>Color Scheme</em> &#8211; a set of colors, properly labeled and made available to everyone involved with a project in order to 
-  ensure a cohesive look and feel</li>
-<li><em>Monochromatic Colors Scheme</em> &#8211; a color palette that uses shades and tints of a single color to created a unified look</li>
-<li><em>Triadic Color Scheme</em> &#8211; a color palette that uses three colors that are evenly spaced around the color wheel to form 
-  a triangle</li>
-<li><em>Complementary Color Scheme</em> &#8211; a color palette that uses colors that are opposite each other on the color wheel</li>
-<li><em>Split Color Scheme</em> &#8211; a color palette that uses a base color and two colors that would be balanced from the opposite side 
-  of the color wheel</li>
-<li><em>Analogous Color Scheme</em> &#8211; colors that are next to each other on the color wheel</li>
-<li><em>White Space</em> &#8211; the empty space between and around design elements and text, also called negative space, that can be any 
-  color, texture, or pattern</li>
-<li><em>RGB</em> &#8211; stands for red, green, and blue and it is a color mode used by screens to build a light-based color system</li>
-<li><em>CMYK</em> &#8211; stands for cyan, magenta, yellow, and black and are colored inks used in the printing process</li> 
-<li><em>Contrast</em> &#8211; the difference between the lightest and darkest tones in an image</li> 
-<li><em>Vibrancy</em> &#8211; in color theory this means a lively, bright, rich, energetic hue</li>
-</ol>
-<br>
-<p><em>Want more? Check out these pages!</em></p>
-<a href="color_themes.html"><em>Color Themes</em></a> | 
-<a href="color_theory_article.html"><em>Color Theory Article</em></a>
-<hr>
+</div>
+</main>
+</body>
 <footer>
   <a href="https://www.facebook.com" target="newtab">
-    <img src="../assets/facebook_icon.png" alt="facebook" height="30" width="30"></a>
+    <i class="fa-brands fa-facebook-f"></i></a>
   <a href="https://www.instagram.com" target="newtab">
-    <img src="../assets/instagram_icon.png" alt="instagram" height="30" width="30"></a>
+    <i class="fa-brands fa-instagram"></i></a>
   <a href="https://www.twitter.com" target="newtab">
-    <img src="../assets/x_icon.png" alt="x" height="30" width="30"></a>
+    <i class="fa-brands fa-x-twitter"></i></a>
   <a href="mailto:tam.d.designer@email.com">
-    <img src="../assets/email_icon.png" alt="tam.d.designer@email.com" height="30" width="30"></a>
+    <i class="fa-solid fa-envelope"></i></a>
 </footer>
-</body>
 </html>

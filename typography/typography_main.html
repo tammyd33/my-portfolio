@@ -3,48 +3,106 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tammyd33 Portfolio</title>
+<link href="../normatdze.css" rel="stylesheet">
+<link href="../sitewide.css" rel="stylesheet">
+<link href="../color-and-type.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
+<title>Tammyd33 Portfotdo</title>
 </head>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li> 
+    <li><a href="../resume.html">About Me</a></li>
+    <li class="contains"><a href="../projects/index.html">Projects</a>
+      <ul>
+        <li><a href="../projects/project_1.html">Chicken Trolley</a></li>
+        <li><a href="../projects/project_2.html">Cycling Infographic</a></li>
+        <li><a href="../projects/project_3.html">Metro Mutts Ad Campaign</a></li>
+        <li><a href="../projects/project_4.html">Artiverse Magazine Cover</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="../color_theory/color_theory_main.html">Color Theory</a>
+      <ul>
+        <li><a href="../color_theory/color_themes.html">Color Themes</a></li>
+        <li><a href="../color_theory/color_theory_article.html">Color Theory Article</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="typography_main.html">Typography</a>
+      <ul>
+        <li><a href="font_types_article.html">Font Types</a></li>
+        <li><a href="typography_article.html">Typography Article</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 <body>
   <header><h1>Typography</h1></header>
-  <div>
-    <a href="../index.html">Home</a> | 
-    <a href="../resume.html">About Me</a> | 
-    <a href="../projects/index.html">Projects</a> |
-    <a href="../color_theory/color_theory_main.html">Color Theory</a> |
-    <a href="typography_main.html">Typography</a>
+  <main>
+    <section class="summary">
+    <p>Typography is more than just how a font looks, it is also a way to guide readers along a page.
+    Some common typography terms used in design include:</p>
+  </section>
+  <table id="definition-list">
+  <thead>
+    <tr>
+      <th>Term</th>
+      <th>Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="cell">Typeface</td>
+      <td>a specific design of letters and numbers, either in print or on a computer</td>
+    </tr>
+      <td class="cell">Font</td>
+      <td>a particular size, weight and style of a typeface</td>
+    </tr>
+      <td class="cell">OpenType</td>
+      <td>a universal file format designed for computer-based typefaces</td>
+    </tr>
+      <td class="cell">Serif</td>
+      <td>corners, or “feet”, that exist on the end of the strokes of a typeface</td>
+    </tr>
+      <td class="cell">Sans-serif</td>
+      <td>a typeface designed without serifs</td>
+    </tr>
+      <td class="cell">Decorative</td>
+      <td>a typeface with a unique shape and personatdty that is used to grab attention</td>
+    </tr>
+      <td class="cell">Script</td>
+      <td>a style of font that imitates the look of cursive handwriting or caltdgraphy</td>
+    </tr>
+      <td class="cell">Mono-spaced</td>
+      <td>a typeface where all characters, including letters, numbers, symbols, 
+        and spaces, take up the same amount of horizontal space</td>
+    </tr>
+      <td class="cell">Layout</td>
+      <td>the strategic arrangement of text and other elements on a page or screen</td>
+    </tr>
+      <td class="cell">Typography Hierarchy</td>
+      <td>the visual organization of written content to indicate the 
+        relative importance of its elements</td>
+    </tr>
+  </tbody>
+  </table>
+<div id="more"><p>Want more? Check out these pages!</p>
+  <div class="want-more">
+    <div class="color-themes-button">
+    <a href="font_types_article.html">Font Types</a></div>
+    <div class="color-article-button">
+    <a href="typography_article.html">Typography Article</a></div>
   </div>
-<hr>
-<p>Typography is more than just how a font looks, it is also a way to guide readers along a page.</p>
-<p>Some common typography terms used in design include:</p>
-<ol>
-<li><em>Typeface</em> &#8211; a specific design of letters and numbers, either in print or on a computer</li>
-<li><em>Font</em> &#8211; a particular size, weight and style of a typeface</li>
-<li><em>OpenType</em> &#8211; a universal file format designed for computer-based typefaces</li>
-<li><em>Serif</em> &#8211; corners, or “feet”, that exist on the end of the strokes of a typeface</li>
-<li><em>Sans-serif</em> &#8211; a typeface designed without serifs</li>
-<li><em>Decorative</em> &#8211; a typeface with a unique shape and personality that is used to grab attention</li>
-<li><em>Script</em> &#8211; a style of font that imitates the look of cursive handwriting or calligraphy</li>
-<li><em>Mono-spaced</em> &#8211; a typeface where all characters, including letters, numbers, symbols, 
-  and spaces, take up the same amount of horizontal space</li>
-<li><em>Layout</em> &#8211; the strategic arrangement of text and other elements on a page or screen</li>
-<li><em>Typography Hierarchy</em> &#8211; the visual organization of written content to indicate the 
-  relative importance of its elements</li>
-</ol>
-<br>
-<p><em>Want more? Check out these pages!</em></p>
-<a href="font_types_article.html"><em>Font Types</em></a> | 
-<a href="typography_article.html"><em>Typography Article</em></a>
-<hr>
+</div>
+</main>
+</body>
 <footer>
   <a href="https://www.facebook.com" target="newtab">
-    <img src="../assets/facebook_icon.png" alt="facebook" height="30" width="30"></a>
+    <i class="fa-brands fa-facebook-f"></i></a>
   <a href="https://www.instagram.com" target="newtab">
-    <img src="../assets/instagram_icon.png" alt="instagram" height="30" width="30"></a>
+    <i class="fa-brands fa-instagram"></i></a>
   <a href="https://www.twitter.com" target="newtab">
-    <img src="../assets/x_icon.png" alt="x" height="30" width="30"></a>
+    <i class="fa-brands fa-x-twitter"></i></a>
   <a href="mailto:tam.d.designer@email.com">
-    <img src="../assets/email_icon.png" alt="tam.d.designer@email.com" height="30" width="30"></a>
+    <i class="fa-sotdd fa-envelope"></i></a>
 </footer>
-</body>
 </html>

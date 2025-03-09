@@ -3,55 +3,94 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<link href="../sitewide.css" rel="stylesheet">
+<link href="showcase.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
 <title>Tammyd33 Portfolio</title>
 </head>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li> 
+    <li><a href="../resume.html">About Me</a></li>
+    <li class="contains"><a href="index.html">Projects</a>
+      <ul>
+       <li><a href="../projects/project_1.html">Chicken Trolley</a></li>
+       <li><a href="../projects/project_2.html">Cycling Infographic</a></li>
+       <li><a href="../projects/project_3.html">Metro Mutts Ad Campaign</a></li>
+       <li><a href="../projects/project_4.html">Artiverse Magazine Cover</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="../color_theory/color_theory_main.html">Color Theory</a>
+      <ul>
+       <li><a href="../color_theory/color_themes.html">Color Themes</a></li>
+       <li><a href="../color_theory/color_theory_article.html">Color Theory Article</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="../typography/typography_main.html">Typography</a>
+      <ul>
+       <li><a href="../typography/font_types_article.html">Font Types</a></li>
+       <li><a href="../typography/typography_article.html">Typography Article</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
 <body>
+  <main>
   <header><h1>Projects</h1></header>
-  <div>
-    <a href="../index.html">Home</a> | 
-    <a href="../resume.html">About Me</a> | 
-    <a href="index.html">Projects</a> |
-    <a href="../color_theory/color_theory_main.html">Color Theory</a> |
-    <a href="../typography/typography_main.html">Typography</a>
+<h3>Social Media Ad Campaign<h3>
+<section id="showcase-social">
+  <div class="bulldog">
+    <img src="../assets/Bulldog_Ad_Campaign.jpg" alt="bulldog" height="253" width="405"><br>
   </div>
-<hr>
-<p>Social Media Ad Campaign</p>
-<img src="../assets/Bulldog_Ad_Campaign.jpg" alt="bulldog" height="253" width="405"><br>
-<img src="../assets/Collie_Ad_Campaign.jpg" alt="collie" height="341" width="192">
-<img src="../assets/Golden_Retriever_Ad_Campaign.jpg" alt="golden retriever" height="337" width="270"><br>
-<img src="../assets/Hound_Dog_Ad_Campaign.jpg" alt="hound dog" height="384" width="384">
-<p>For this project I chose to create a series of social media ads. <br>
+  <div class="collie">
+    <img src="../assets/Collie_Ad_Campaign.jpg" alt="collie" height="341" width="192">
+  </div>
+  <div class="golden">
+    <img src="../assets/Golden_Retriever_Ad_Campaign.jpg" alt="golden retriever" height="337" width="270"><br>
+  </div>
+  <div class="hound">
+    <img src="../assets/Hound_Dog_Ad_Campaign.jpg" alt="hound dog" height="384" width="384">
+  </div>
+<article>
+  <p>For this project I chose to create a series of social media ads.
   I am not a social media person, so I chose this project to branch 
-  out from my normal design interests. <br>
-  These ads are for a dog walker in the city so I started with a cityscape 
-  image for the background. I added a gradient map to give it a duo-tone 
-  effect. I chose this effect so I can tie all of the ads together with 
-  the same style. The simple, flat drawing of the dogs are an eye catching 
-  image that I thought should be prominent to draw attention. The sunglasses 
-  are copied in as a shape. Using a selection of the highlights on the 
-  glasses shape, I added a blank layer and using a brush, filled in with 
-  white (I had some trouble, see explanation below). After adding the glasses, 
-  I decided to fill in the transparent areas in the dog’s face to help it 
-  stand out. I added a blank layer behind the dog layer and used the brush 
-  tool. I used a color fill layer style on those painted layers to adjust the 
-  colors on each ad to better match the background. On the Golden Retriever 
-  & Collie ads, I used the perspective transform tool to adjust the sunglasses 
-  to the angle of the dog’s face. After adding all of the text, I decided to 
-  add a rectangle behind the discount info so it could be identifiedas a button 
-  to be linked to the website in the future. The social media icons were vectors 
-  that I pasted in as shapes but I want the logos to be transparent, so I masked 
-  out the logos from the circles and changed the circle color to stand out on each ad.</p>
-<a href="index.html">More Projects</a>
-<hr>
+  out from my normal design interests.
+  </p>
+  <p>These ads are for a dog walker in the city so I started with a cityscape 
+    image for the background. I added a gradient map to give it a duo-tone 
+    effect. I chose this effect so I can tie all of the ads together with 
+    the same style. The simple, flat drawing of the dogs are an eye catching 
+    image that I thought should be prominent to draw attention. The sunglasses 
+    are copied in as a shape. Using a selection of the highlights on the 
+    glasses shape, I added a blank layer and using a brush, filled in with 
+    white (I had some trouble, see explanation below). After adding the glasses, 
+    I decided to fill in the transparent areas in the dog’s face to help it 
+    stand out. I added a blank layer behind the dog layer and used the brush 
+    tool. I used a color fill layer style on those painted layers to adjust the 
+    colors on each ad to better match the background. On the Golden Retriever 
+    & Collie ads, I used the perspective transform tool to adjust the sunglasses 
+    to the angle of the dog’s face. After adding all of the text, I decided to 
+    add a rectangle behind the discount info so it could be identified as a button 
+    to be linked to the website in the future. The social media icons were vectors 
+    that I pasted in as shapes but I want the logos to be transparent, so I masked 
+    out the logos from the circles and changed the circle color to stand out on each ad.
+  </p>
+</article>
+</section>
+<div class="more-projects">
+  <a href="index.html">More Projects</a>
+</div>
+</main>
 <footer>
   <a href="https://www.facebook.com" target="newtab">
-    <img src="../assets/facebook_icon.png" alt="facebook" height="30" width="30"></a>
+    <i class="fa-brands fa-facebook-f"></i></a>
   <a href="https://www.instagram.com" target="newtab">
-    <img src="../assets/instagram_icon.png" alt="instagram" height="30" width="30"></a>
+    <i class="fa-brands fa-instagram"></i></a>
   <a href="https://www.twitter.com" target="newtab">
-    <img src="../assets/x_icon.png" alt="x" height="30" width="30"></a>
+    <i class="fa-brands fa-x-twitter"></i></a>
   <a href="mailto:tam.d.designer@email.com">
-    <img src="../assets/email_icon.png" alt="tam.d.designer@email.com" height="30" width="30"></a>
+    <i class="fa-solid fa-envelope"></i></a>
 </footer>
 </body>
 </html>

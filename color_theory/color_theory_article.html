@@ -3,49 +3,75 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<link href="../sitewide.css" rel="stylesheet">
+<link href="../color-and-type.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
 <title>Tammyd33 Portfolio</title>
 </head>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li> 
+    <li><a href="../resume.html">About Me</a></li>
+    <li class="contains"><a href="../projects/index.html">Projects</a>
+    <ul>
+      <li><a href="../projects/project_1.html">Chicken Trolley</a></li>
+      <li><a href="../projects/project_2.html">Cycling Infographic</a></li>
+      <li><a href="../projects/project_3.html">Metro Mutts Ad Campaign</a></li>
+      <li><a href="../projects/project_4.html">Artiverse Magazine Cover</a></li>
+    </ul>
+  </li>
+  <li class="contains"><a href="../color_theory/color_theory_main.html">Color Theory</a>
+    <ul>
+      <li><a href="../color_theory/color_themes.html">Color Themes</a></li>
+      <li><a href="../color_theory/color_theory_article.html">Color Theory Article</a></li>
+    </ul>
+  </li>
+  <li class="contains"><a href="../typography/typography_main.html">Typography</a>
+    <ul>
+      <li><a href="../typography/font_types_article.html">Font Types</a></li>
+      <li><a href="../typography/typography_article.html">Typography Article</a></li>
+    </ul>
+  </li>
+</ul>
+</nav>
 <body>
-  <header><h1>Color Theory Article</h1></header>
-  <div>
-    <a href="../index.html">Home</a> | 
-    <a href="../resume.html">About Me</a> | 
-    <a href="../projects/index.html">Projects</a> |
-    <a href="color_theory_main.html">Color Theory</a> |
-    <a href="../typography/typography_main.html">Typography</a>
+  <header><h1>Color Theory</h1></header>
+  <main>
+    <article id="color-article">
+    <p>Color is a powerful tool in web design, as it can help convey a message, create visual interest, and guide the user's attention 
+    to key elements on a page. Thoughtful use of color can enhance user experience and even influence how users perceive a brand or message.</p>
+      <a href="https://beans.agency" target="newtab">
+        <img src="../assets/beans_agency.png" alt="Beans Agency" height="285" width="597"></a>
+    <p>For example, the Beans Agency website <em>(see screenshot below)</em> effectively uses vibrant colors and dynamic animations 
+    to draw visitors in and encourage them to keep scrolling. The use of full-screen, monotone color blocks for each section creates 
+    a visually immersive experience, making it easy for users to focus on the content within each section. The simplicity of the color 
+    scheme, combined with animation, creates an engaging and seamless flow from one section to the next, helping maintain user interest 
+    throughout the page.</p>
+      <a href="https://www.berkshirehathaway.com/" target="newtab">
+        <img src="../assets/berkshire_hathaway.png" alt="Berkshire Hathaway" height="290" width="636"></a>
+    <p>In contrast, the Berkshire Hathaway website <em>(see screenshot below)</em> features a very basic, minimalist design. The white 
+    background paired with single-colored text gives the site a more traditional, straightforward look. While this approach may work 
+    for certain audiences, it lacks the visual appeal and interactive elements that could help capture attention or encourage deeper 
+    engagement with the content. The design feels somewhat static and less dynamic compared to more modern, color-rich websites, potentially 
+    making it less engaging for users.</p>
+    <p>Ultimately, the strategic use of color can greatly enhance a website's aesthetic appeal and functionality, making it more engaging 
+    and user-friendly, while a more basic design may work for some brands but risks being less captivating to others.</p>
+    </article>
+  <div class="want-more">
+    <div class="color-themes-button">
+    <a href="color_theory_main.html">Back to Color Theory</a></div>
   </div>
-<hr>
-<p>Color is a powerful tool in web design, as it can help convey a message, create visual interest, and guide the user's attention 
-  to key elements on a page. Thoughtful use of color can enhance user experience and even influence how users perceive a brand or message.</p>
-  <p>For example, the Beans Agency website <em>(see screenshot below)</em> effectively uses vibrant colors and dynamic animations 
-  to draw visitors in and encourage them to keep scrolling. The use of full-screen, monotone color blocks for each section creates 
-  a visually immersive experience, making it easy for users to focus on the content within each section. The simplicity of the color 
-  scheme, combined with animation, creates an engaging and seamless flow from one section to the next, helping maintain user interest 
-  throughout the page.</p>
-  <p>In contrast, the Berkshire Hathaway website <em>(see screenshot below)</em> features a very basic, minimalist design. The white 
-  background paired with single-colored text gives the site a more traditional, straightforward look. While this approach may work 
-  for certain audiences, it lacks the visual appeal and interactive elements that could help capture attention or encourage deeper 
-  engagement with the content. The design feels somewhat static and less dynamic compared to more modern, color-rich websites, potentially 
-  making it less engaging for users.</p>
-  <p>Ultimately, the strategic use of color can greatly enhance a website's aesthetic appeal and functionality, making it more engaging 
-  and user-friendly, while a more basic design may work for some brands but risks being less captivating to others.</p>
-<h5><em>Beans Agency</em></h5>
-<p><a href="https://beans.agency" target="newtab">
- <img src="../assets/beans_agency.png" alt="Beans Agency" height="285" width="597"></a></p>
-<h5><em>Berkshire Hathaway</em></h5>
- <p><a href="https://www.berkshirehathaway.com/" target="newtab">
- <img src="../assets/berkshire_hathaway.png" alt="Berkshire Hathaway" height="290" width="636"></a></p>
- <a href="color_theory_main.html"><em>Back to Color Theory</em></a>
-<hr>
+ </main>
+</body>
 <footer>
   <a href="https://www.facebook.com" target="newtab">
-    <img src="../assets/facebook_icon.png" alt="facebook" height="30" width="30"></a>
+    <i class="fa-brands fa-facebook-f"></i></a>
   <a href="https://www.instagram.com" target="newtab">
-    <img src="../assets/instagram_icon.png" alt="instagram" height="30" width="30"></a>
+    <i class="fa-brands fa-instagram"></i></a>
   <a href="https://www.twitter.com" target="newtab">
-    <img src="../assets/x_icon.png" alt="x" height="30" width="30"></a>
+    <i class="fa-brands fa-x-twitter"></i></a>
   <a href="mailto:tam.d.designer@email.com">
-    <img src="../assets/email_icon.png" alt="tam.d.designer@email.com" height="30" width="30"></a>
+    <i class="fa-solid fa-envelope"></i></a>
 </footer>
-</body>
 </html>

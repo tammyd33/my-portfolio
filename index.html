@@ -3,34 +3,59 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<link href="sitewide.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
 <title>Tammyd33 Portfolio</title>
 </head>
-<body>
-  <header><h1>Portfolio</h1></header>
-  <div>
-    <a href="index.html">Home</a> | 
-    <a href="resume.html">About Me</a> | 
-    <a href="projects/index.html">Projects</a> |
-    <a href="color_theory/color_theory_main.html">Color Theory</a> |
-    <a href="typography/typography_main.html">Typography</a>
-  </div>
-<hr>
-<br>
-<img src="assets/Home_Page_banner.png" alt="hello" height="192" width="683">
-<p>It's so nice of you to stop by!</p>
-This site is a showcase of some of my work. I love to create digital designs and I am learning to create web pages.
-<br>Currently, I am still working with the basic knowledge of HTML so this page is just the beginning! I hope you come back
-in the future to see my progress. :)
-<hr>
+  <nav>
+    <ul>
+    <li><a href="index.html">Home</a></li> 
+    <li><a href="resume.html">About Me</a></li>
+    <li class="contains"><a href="projects/index.html">Projects</a>
+      <ul>
+        <li><a href="projects/project_1.html">Chicken Trolley</a></li>
+        <li><a href="projects/project_2.html">Cycling Infographic</a></li>
+        <li><a href="projects/project_3.html">Metro Mutts Ad Campaign</a></li>
+        <li><a href="projects/project_4.html">Artiverse Magazine Cover</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="color_theory/color_theory_main.html">Color Theory</a>
+      <ul>
+        <li><a href="color_theory/color_themes.html">Color Themes</a></li>
+        <li><a href="color_theory/color_theory_article.html">Color Theory Article</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="typography/typography_main.html">Typography</a>
+      <ul>
+        <li><a href="typography/font_types_article.html">Font Types</a></li>
+        <li><a href="typography/typography_article.html">Typography Article</a></li>
+      </ul>
+    </li>
+    </ul>
+</nav>
+<main>
+  <body>
+    <header><h1>Portfolio</h1></header>
+<section id="image">
+<div>
+  <img src="assets/Home_Page_banner.png" alt="hello" height="auto" width="700">
+</div>
+</section>
+  <p>It's so nice of you to stop by!</p>
+  <p>This site is a showcase of some of my work. I love to create digital designs and I am learning to create web pages.</p>
+  <p>Currently, I am still working with the basic knowledge of HTML so this page is just the beginning! I hope you come back
+in the future to see my progress. :)</p> 
+</main>
+</body>
 <footer>
   <a href="https://www.facebook.com" target="newtab">
-    <img src="assets/facebook_icon.png" alt="facebook" height="30" width="30"></a>
+    <i class="fa-brands fa-facebook-f"></i></a>
   <a href="https://www.instagram.com" target="newtab">
-    <img src="assets/instagram_icon.png" alt="instagram" height="30" width="30"></a>
+    <i class="fa-brands fa-instagram"></i></a>
   <a href="https://www.twitter.com" target="newtab">
-    <img src="assets/x_icon.png" alt="x" height="30" width="30"></a>
+    <i class="fa-brands fa-x-twitter"></i></a>
   <a href="mailto:tam.d.designer@email.com">
-    <img src="assets/email_icon.png" alt="tam.d.designer@email.com" height="30" width="30"></a>
+    <i class="fa-solid fa-envelope"></i></a>
 </footer>
-</body>
 </html>

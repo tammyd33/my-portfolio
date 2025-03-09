@@ -1,0 +1,111 @@
+
+header h1{ 
+    background: url(../assets/halftone_banner_halftone_banner.png) center/cover;
+}
+#showcase-images{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+.chicken img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: 1;
+    grid-gap: 3rem;
+    box-sizing: content-box;
+    width: 80%;
+    height: auto;
+}
+main img{
+    background: rgb(5, 27, 86, 0.5);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+main img:hover{
+    background: rgb(5,27,86);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#showcase{
+    background: white;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    width: 80%;
+}
+#showcase img{
+    width: 50%;
+    height: auto;
+    float: none;
+    clear: both;
+}
+#showcase-social{
+    background: white;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 1rem;
+
+
+}
+/*.collie{
+    grid-row: span 2;
+}
+.bulldog{
+    grid-column: span 2;
+}*/
+#showcase-social img{
+    width: 25%;
+    height: auto;
+
+}
+.magazine{
+    width: 400px;
+    height: auto;
+    float: left;
+    clear: right;
+}
+.magazine img{
+    padding-right: -1rem;
+}
+a{
+    font-family: sinkin_sans800_black;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.more-projects{
+    background: rgb(158, 170, 202);
+    border: rgb(70, 70, 100);
+    border-radius: 0.5rem;
+    border-style: none solid solid none;
+    border-width: 0 0.2rem 0.2rem 0;
+    color: navy;
+    font-size: 0.8rem;
+    height: 20px;
+    padding: 0.2rem;
+    margin: 2rem 0 4rem;
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+}
+.more-projects:hover{
+    color: white;
+    transform: skew(-10deg);
+}
+.more-projects:active{
+    background: rgb(5,27,86);
+    color: rgb(245,44,155);
+    transform: translate(0,-5px);
+}
+.more-projects a{
+    text-decoration: none;
+}

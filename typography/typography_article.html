@@ -3,47 +3,73 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<link href="../sitewide.css" rel="stylesheet">
+<link href="../color-and-type.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
 <title>Tammyd33 Portfolio</title>
 </head>
+<nav>
+  <ul>
+    <li><a href="../index.html">Home</a></li> 
+    <li><a href="../resume.html">About Me</a></li>
+    <li class="contains"><a href="../projects/index.html">Projects</a>
+    <ul>
+      <li><a href="../projects/project_1.html">Chicken Trolley</a></li>
+      <li><a href="../projects/project_2.html">Cycling Infographic</a></li>
+      <li><a href="../projects/project_3.html">Metro Mutts Ad Campaign</a></li>
+      <li><a href="../projects/project_4.html">Artiverse Magazine Cover</a></li>
+    </ul>
+  </li>
+  <li class="contains"><a href="../color_theory/color_theory_main.html">Color Theory</a>
+    <ul>
+      <li><a href="../color_theory/color_themes.html">Color Themes</a></li>
+      <li><a href="../color_theory/color_theory_article.html">Color Theory Article</a></li>
+    </ul>
+  </li>
+  <li class="contains"><a href="../typography/typography_main.html">Typography</a>
+    <ul>
+      <li><a href="../typography/typography_article.html">Font Types</a></li>
+      <li><a href="../typography/typography_article.html">Typography Article</a></li>
+    </ul>
+  </li>
+</ul>
+</nav>
 <body>
-  <header><h1>Typography Article</h1></header>
-  <div>
-    <a href="../index.html">Home</a> | 
-    <a href="../resume.html">About Me</a> | 
-    <a href="../projects/index.html">Projects</a> |
-    <a href="../color_theory/color_theory_main.html">Color Theory</a> |
-    <a href="typography_main.html">Typography</a>
+  <header><h1>Typography</h1></header>
+  <main>
+    <article id="typography-article">
+    <p>Typography and font choices play a crucial role in the overall effectiveness of a project, particularly on websites. 
+    Text is often the most direct way to communicate with visitors, and legibility should always be a top priority. A 
+    well-chosen typeface can enhance the user experience, but if text is difficult to read, it detracts from the message 
+    you're trying to convey.</p>
+      <a href="https://www.art.yale.edu" target="newtab">
+      <img src="../assets/yale_school_of_art.png" alt="Yale School of Art website image" height="285" width="597"></a>
+    <p>For example, the Yale School of Art website <em>(see screenshot below)</em> features a busy static background, and the text does not stand out enough 
+    against it. This lack of contrast makes reading the content challenging. While the use of headings does help to break up the 
+    sections, the text could benefit from greater contrast or even some design adjustments like text shadowing or background overlays 
+    to improve readability.</p>
+      <a href="https://www.tapioca.xyz/" target="newtab">
+      <img src="../assets/tapioca.png" alt="Tapioca wedsite image" height="290" width="636"></a>
+    <p>On the other hand, the typography used on the Tapioca website <em>(see screenshot below)</em> is a great example of effective design. The bold, clean 
+    typeface is not only visually striking but also very legible. Its simplicity makes it easy to read, while its strong presence 
+    draws attention, striking a balance between functionality and aesthetics.</p> 
+    <p>In both cases, the key takeaway is that the right typography can significantly impact how users interact with your website or project.</p>
+</article>
+<div class="want-more">
+    <div class="typography-main-button">
+    <a href="typography_main.html">Back to Typography</a></div>
   </div>
-<hr>
-<p>Typography and font choices play a crucial role in the overall effectiveness of a project, particularly on websites. 
-  Text is often the most direct way to communicate with visitors, and legibility should always be a top priority. A 
-  well-chosen typeface can enhance the user experience, but if text is difficult to read, it detracts from the message 
-  you're trying to convey.</p>
-<p>For example, the Yale School of Art website <em>(see screenshot below)</em> features a busy static background, and the text does not stand out enough 
-against it. This lack of contrast makes reading the content challenging. While the use of headings does help to break up the 
-sections, the text could benefit from greater contrast or even some design adjustments like text shadowing or background overlays 
-to improve readability.</p>
-<p>On the other hand, the typography used on the Tapioca website <em>(see screenshot below)</em> is a great example of effective design. The bold, clean 
-typeface is not only visually striking but also very legible. Its simplicity makes it easy to read, while its strong presence 
-draws attention, striking a balance between functionality and aesthetics.</p> 
-<p>In both cases, the key takeaway is that the right typography can significantly impact how users interact with your website or project.</p>
-<h5><em>Yale School of Art</em></h5>
-<p><a href="https://www.art.yale.edu" target="newtab">
- <img src="../assets/yale_school_of_art.png" alt="Yale School of Art website image" height="285" width="597"></a></p>
-<h5><em>Tapioca</em></h5>
- <p><a href="https://www.tapioca.xyz/" target="newtab">
- <img src="../assets/tapioca.png" alt="Tapioca wedsite image" height="290" width="636"></a></p>
- <a href="typography_main.html"><em>Back to Typography</em></a>
-<hr>
+</main>
+</body>
 <footer>
   <a href="https://www.facebook.com" target="newtab">
-    <img src="../assets/facebook_icon.png" alt="facebook" height="30" width="30"></a>
+    <i class="fa-brands fa-facebook-f"></i></a>
   <a href="https://www.instagram.com" target="newtab">
-    <img src="../assets/instagram_icon.png" alt="instagram" height="30" width="30"></a>
+    <i class="fa-brands fa-instagram"></i></a>
   <a href="https://www.twitter.com" target="newtab">
-    <img src="../assets/x_icon.png" alt="x" height="30" width="30"></a>
+    <i class="fa-brands fa-x-twitter"></i></a>
   <a href="mailto:tam.d.designer@email.com">
-    <img src="../assets/email_icon.png" alt="tam.d.designer@email.com" height="30" width="30"></a>
+    <i class="fa-solid fa-envelope"></i></a>
 </footer>
-</body>
 </html>

@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'sinkin_sans800_black';
+    src: url('fonts/sinkinsans-800black-webfont.eot');
+    src: url('fonts/sinkinsans-800black-webfont.ttf') format('embedded-opentype'),
+         url('fonts/sinkinsans-800black-webfont.woff') format('woff2'),
+         url('fonts/sinkinsans-800black-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: xx-large;
+  }
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(5,27,86);
+}
+a:hover{
+    color: rgb(0, 230, 221);
+}
+body{
+    background: rgb(153, 99, 189);
+}
+header h1{ 
+    background: url(assets/halftone_banner_halftone_banner.png) center/cover;
+    font-family: sinkin_sans800_black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding: 2em 1em 1em;
+    margin: -1rem -0.5rem 0;
+}
+h3 {
+    font-family: sinkin_sans800_black;
+    color: white;
+}
+nav{
+    background: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 -0.5rem;
+    width: 200px;
+    height: 100%;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+nav li:hover{
+    background: rgb(5,27,86);
+}
+nav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    text-align: center;
+    font-family: sinkin_sans800_black;
+    text-transform: uppercase;
+}
+.contains ul{
+    background: rgb(5,27,86);
+    display: none;
+    font-size: 0.9rem;
+    left: 200px;
+    position: absolute;
+    width: auto;
+}
+.contains:hover ul{
+    display: block;
+}
+main{
+    margin-left: 200px;
+    display: block;
+}
+
+main p{
+    font-family: sans-serif;
+    overflow: auto;
+}
+#image{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 3rem;
+    grid-auto-flow: dense;
+    box-sizing: content-box;
+}
+#image img{
+    width: 100%;
+    height: auto;
+}
+section::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+article p{
+    color: rgb(5,27,86);
+    text-indent: 1em;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+footer{
+    background: rgb(5,27,86);
+    position: fixed;
+    min-width: 640px;
+    width: 100%;
+    margin-left: 200px;
+    padding: 0.2rem 1rem;
+    bottom: 0;
+}
+i{
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}

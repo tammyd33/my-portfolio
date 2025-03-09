@@ -1,0 +1,212 @@
+h3{
+    color: rgb(5,27,86);
+}
+a{
+    text-decoration: none;
+}
+
+section p{
+    text-indent: 1em;
+}
+table,
+th,
+td{
+    border: solid white 1px;
+    padding: 0.2rem;
+    font-family: sans-serif;
+}
+th{
+    text-transform: uppercase;
+    font-family: sinkin_sans800_black;
+    font-size: smaller;
+    letter-spacing: 0.1rem;
+}
+table#definition-list{
+    background: lightgray;
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+table#themes-list{
+    background: lightgray;
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+td.cell{
+    background: gray;
+    color: lightgray;
+    text-align: center;
+}
+#all{
+    margin-bottom: 2rem;
+}
+#all a{
+    text-transform: uppercase;
+    padding-left: 0.5rem;
+    padding-bottom: 1rem;
+}
+#all article{
+    border-radius: 0.2rem;
+    height: 30px;
+    margin: 0.5rem 0;
+    overflow: hidden;
+    padding-bottom: 15px;
+    width: 200px;
+}
+#all article:target{
+    background: white;
+    height: auto;
+    width: 400px;
+    transition: all 0.5s linear;
+}
+#color-article{
+    background: white;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    width: 80%;
+}
+#color-article img{
+    float: right;
+    clear: both;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    width: 300px;
+    height: auto;
+}
+#color-article::after{
+    content: "";
+    display: block;
+    clear:both
+}
+#typography-article{
+    background: white;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    width: 80%;
+}
+#typography-article img{
+    float: right;
+    clear: both;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    width: 300px;
+    height: auto;
+}
+#typography-article::after{
+    content: "";
+    display: block;
+    clear:both
+}
+#font-types{
+    background: white;
+    padding: 0.5rem;
+    margin: 2rem auto;
+    width: 80%;
+}
+#font-types h4{
+    font-style: italic;
+    line-height: 0.5rem;
+}
+
+#font-types img{
+    display: inline;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+    width: 150px;
+    height: auto;
+}
+#font-types img:hover{
+    transform: skew(-10deg);
+}
+#font-types img:active{
+    transform: translate(0,-5px);
+}
+#more{ 
+    background: rgb(70, 70, 100);
+    border-radius: 0.5rem;
+    color: rgb(158, 170, 202);
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 5rem;
+}
+.want-more{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}  
+.want-more a{
+    text-decoration: none;
+    font-family: sinkin_sans800_black;
+    font-size: small;
+    text-transform: uppercase; 
+}
+.color-themes-button{
+    background: rgb(158, 170, 202);
+    border: rgb(70, 70, 100);
+    border-radius: 0.5rem;
+    border-style: none solid solid none;
+    border-width: 0 0.2rem 0.2rem 0;
+    color: navy;
+    font-size: 0.8rem;
+    height: 20px;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem 1rem 0;
+    text-align: center;
+    width: auto;
+}
+.color-article-button{
+    background: rgb(158, 170, 202);
+    border: rgb(70, 70, 100);
+    border-radius: 0.5rem;
+    border-style: none solid solid none;
+    border-width: 0 0.2rem 0.2rem 0;
+    color: navy;
+    font-size: 0.8rem;
+    height: 20px;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem;
+    text-align: center;
+    width: auto;
+}
+.color-themes-button:hover{
+    color: white;
+    transform: skew(-10deg);
+}
+.color-article-button:hover{
+    color: white;
+    transform: skew(-10deg);
+}
+.color-themes-button:active{
+    background: rgb(5,27,86);
+    color: rgb(245,44,155);
+    transform: translate(0,-5px);
+}
+.color-article-button:active{
+    background: rgb(5,27,86);
+    color: rgb(245,44,155);
+    transform: translate(0,-5px);
+}
+.typography-main-button{
+    background: rgb(158, 170, 202);
+    border: rgb(70, 70, 100);
+    border-radius: 0.5rem;
+    border-style: none solid solid none;
+    border-width: 0 0.2rem 0.2rem 0;
+    color: navy;
+    font-size: 0.8rem;
+    height: 20px;
+    padding: 0.5rem;
+    margin: 0.5rem 0 1rem;
+    text-align: center;
+    width: auto;
+}
+.typography-main-button:hover{
+    color: white;
+    transform: skew(-10deg);
+}
+.typography-main-button:active{
+    background: rgb(5,27,86);
+    color: rgb(245,44,155);
+    transform: translate(0,-5px);
+}

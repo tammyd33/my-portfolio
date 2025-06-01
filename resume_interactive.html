@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="../normalize.css" rel="stylesheet">
+<link href="sitewide.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
+<title>Tammyd33 Portfolio</title>
+</head>
+<style>
+  img{
+    background: rgb(5, 27, 86, 0.5);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+  img:hover{
+    background: rgb(5,27,86);
+    transform: scale(1.5);
+    transition: 1s;
+}
+  ul{
+    list-style: none;
+}
+  #name{
+    font-family: sinkin_sans800_black;
+    color: white;
+}
+  #contact{
+    font-weight: bold;
+  }
+  #bio{
+    margin-right: 5%;
+  }
+</style>
+<style>
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: rgb(5,27,86);
+  cursor: pointer;
+
+  width: 60%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: rgb(5, 27, 86, 0.5);
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  width: 50%;
+  margin: 0.5rem;
+  display: none;
+  overflow: hidden;
+
+}
+ol {
+  list-style: circle;
+}
+</style>
+<body>
+  <header><h1>About Me</h1></header>
+  <nav>
+    <ul id="font-size">
+        <li class="contains">Font Size</li>
+        <button onclick="changeFontSize()" id="font-size small" data-font-size="small">Smaller Text</button>
+        <button class="font-size medium" data-font-size="medium">Medium Text</button>
+        <button class="font-size large" data-font-size="large">Large Text</button>
+      </ul>
+      <button onclick="myFunction()">Dark Theme</button>
+  <ul>
+    <li><a href="index.html">Home</a></li> 
+    <li><a href="resume.html">About Me</a></li>
+    <li class="contains"><a href="projects/index.html">Projects</a>
+      <ul>
+        <li><a href="projects/project_1.html">Chicken Trolley</a></li>
+        <li><a href="projects/project_2.html">Cycling Infographic</a></li>
+        <li><a href="projects/project_3.html">Metro Mutts Ad Campaign</a></li>
+        <li><a href="projects/project_4.html">Artiverse Magazine Cover</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="color_theory/color_theory_main.html">Color Theory</a>
+      <ul>
+        <li><a href="color_theory/color_themes.html">Color Themes</a></li>
+        <li><a href="color_theory/color_theory_article.html">Color Theory Article</a></li>
+      </ul>
+    </li>
+    <li class="contains"><a href="typography/typography_main.html">Typography</a>
+      <ul>
+        <li><a href="typography/font_types_article.html">Font Types</a></li>
+        <li><a href="typography/typography_article.html">Typography Article</a></li>
+      </ul>
+    </li>
+    </ul>
+</nav>
+<main>
+  <body>
+    <ul><p id="name"><h2>Tammy Davis</h2></p>
+    <button type="button" class="collapsible"><h3>Contact</h3></button>
+    <p class="content">321.456.7931 <br>
+    tam.d.designer@email.com <br>
+    98 Hilltop Road | Yonder, TX 70501</p>
+  </ul>
+  <ul>
+    <button type="button" class="collapsible"><h3>Bio</h3></button>
+    <p class="content">Creative and detail-oriented Graphic Designer with 14 years of experience crafting visually compelling designs across diverse media. Adept at translating complex concepts into engaging visual solutions, with a strong track record in branding, advertising, and digital media. Proven ability to collaborate effectively with clients and cross-functional teams, delivering projects on time and within budget.</p>
+    </ul>
+    <ul>
+      <button type="button" class="collapsible"><h3>Skills</h3></button>
+      <div  class="content">
+    <li><h4>Design Software</h4></li>
+        <li>Photoshop</li>
+        <li>Illustrator</li>
+        <li>InDesign</li>
+    <li><h4>Print Production</h4></li>
+        <li>Pre-press</li>
+        <li>Color Correction</li>
+        <li>Layout Design</li>
+    <li><h4>Branding</h4></li>
+        <li>Logo Design</li>
+        <li>Brand Strategy</li>
+        <li>Visual Identity</li>
+    <li><h4>Project Management</h4></li>
+        <li>Meeting Deadlines</li>
+        <li>Client Communication</li>
+        <li>Team Collaboration</p></li>
+  </div>
+</ul>
+<ul><button type="button" class="collapsible"><h3>Education</h3></button>
+    <div class="content">Bachelor of Fine Arts
+    in Graphic Design, 
+    University of Home — Here, TX
+    Graduated: May 2008
+  </div>
+</ul>
+<ul><button type="button" class="collapsible"><h3>Professional Affiliations</h3></button>
+    <div class="content" >
+      <li><em>Member</em> American Institute of Graphic Arts (AIGA)</li>
+      <li><em>Member</em> Graphic Artists Guild</li>
+  </div>
+</ul>
+<ul><button type="button" class="collapsible"><h3>Work Experience</h3></button>
+  <div class="content">
+   
+    <h4>Senior Graphic Designer</h4> <em>Creative Agency | Yonder, TX	2015 - Present</em>
+    <li>
+      <ol><li>Lead the design team in creating high-impact visual assets for clients in various industries, including tech, retail, and non-profit.</li>
+    <li>Developed comprehensive branding strategies, including logos, brand guidelines, and marketing materials, resulting in increased brand recognition and client engagement.</li>
+    <li>Managed multiple projects simultaneously, ensuring timely delivery and adherence to client specifications and budget constraints.</li>
+    <li>Conducted client presentations and design reviews, providing expert advice and solutions to meet business objectives.</li>
+  </ol></li>
+    <h4>Graphic Designer</h4> 
+    <li><em>Great Design Studio | Middleville, TX	2010- 2015</em></li>
+    <ol><li>Designed marketing collateral, including brochures, posters, and advertisements, for a diverse clientele.</li>
+    <li>Contributed to the development of creative concepts and visual identities for new and existing brands.</li>
+    <li>Coordinated with printers and vendors to ensure high-quality production and adherence to project timelines.</li>
+    <li>Provided mentorship and training to junior designers, fostering a collaborative and creative team environment.</li>
+  </ol>
+  <li><h4>Junior Graphic Designer</h4> 
+    <em>Creative Solutions Inc. | Yonder, TX	2008 - 2010</em></li>
+  <ol>  <li>Supported senior designers in the development of print and digital materials, including flyers, banners, and web graphics.</li>
+    <li>Conducted research and gathered inspiration to inform design decisions and enhance creative outputs.</li>
+    <li>Managed administrative tasks related to design projects, including organizing files and tracking project progress.</li></ol>
+  </div>
+</ul>
+  <p><small>Disclaimer: The person named above and the information in the resume is fictitious.</small></p>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+      var i;
+      
+      for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+          this.classList.toggle("active");
+          var content = this.nextElementSibling;
+          if (content.style.display === "block") {
+            content.style.display = "none";
+          } else {
+            content.style.display = "block";
+          }
+        });
+      }
+</script>
+    
+</body>
+</main>
+<footer>
+  <a href="https://www.facebook.com" target="newtab">
+    <i class="fa-brands fa-facebook-f"></i></a>
+  <a href="https://www.instagram.com" target="newtab">
+    <i class="fa-brands fa-instagram"></i></a>
+  <a href="https://www.twitter.com" target="newtab">
+    <i class="fa-brands fa-x-twitter"></i></a>
+  <a href="mailto:tam.d.designer@email.com">
+    <i class="fa-solid fa-envelope"></i></a>
+</footer>
+</html>

@@ -7,10 +7,18 @@
 <link href="../sitewide.css" rel="stylesheet">
 <link href="../color-and-type.css" rel="stylesheet">
 <script src="https://kit.fontawesome.com/37aadca4d1.js" crossorigin="anonymous"></script>
+<script src="sitewide.js"></script>
 <title>Tammyd33 Portfolio</title>
 </head>
 <nav>
-  <ul>
+  <ul id="font-size">
+      <li class="contains">Font Size</li>
+      <button onclick="changeFontSize()" id="font-size small" data-font-size="small">Smaller Text</button>
+      <button class="font-size medium" data-font-size="medium">Medium Text</button>
+      <button class="font-size large" data-font-size="large">Large Text</button>
+    </ul>
+    <button onclick="myFunction()">Dark Theme</button>
+<ul>
     <li><a href="../index.html">Home</a></li> 
     <li><a href="../resume.html">About Me</a></li>
     <li><a href="../projects/index.html">Projects</a></li>
